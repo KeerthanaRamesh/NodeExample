@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Blogging Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="public/app1.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }  
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="/signin"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+        <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+
+    <h1>MindFull Meal Blog</h1>
+    <p>Healthy Eating Meets Simplicity and Efficiency</p>
+  </div>
+</div>  
+<div class="container-fluid bg-3 text-center">
+  <h3>Your Diet Chart</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <h4>Top 10 helthy foods</h4>
+      <a href="javascript:void(0)"><img src="images/i1.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+
+    </div>
+    <div class="col-sm-3">
+      <h4>Apricot diet</h4>
+      <a href="javascript:void(0)"><img src="images/i2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <h4>GreenTea for Drink</h4>
+      <a href="javascript:void(0)"><img src="images/i3.jpg" class="img-responsive" style="width:100%;" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <h4>Vegetable Diet</h4>
+      <a href="javascrip:void(0)"><img src="images/i4.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+</div><br>
+ <div class="row col-sm-12">
+ <span class="pull-right"><a href="javascript:void(0)">Edit blog</a></span>
+ <form action="postdata" method="get">
+
+<section class="dynamic">
+        <p></p>
+      </section>
+    <footer>From WWF's website</footer>
+  </blockquote></div>
+</form>
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <h4>Home Made Juice</h4>
+      <a href="javascript:void(0)"><img src="images/i5.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <h4>Natural Medicines</h4>
+      <a href="javascript:void(0)"><img src="images/i6.jpg" class="img-responsive" style="width:100%;" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <h4>Protien Diet</h4>
+      <a href="javascript:void(0)"><img src="images/i7.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <h4>Pregnancy Diet</h4>
+     <a href="javascript:void(0)"><<img src="images/i8.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+</div><br>
+ <div class="row col-sm-12">
+  <span class="pull-right"><a href="javascript:void(0)">Edit blog</a></span>
+  <form action="log" method="post">
+  <h1>Blockquotes</h1>
+  <p>The blockquote element is used to present content from another source:</p>
+  <blockquote>
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <footer>From WWF's website</footer>
+  </blockquote></form></div>
+<br>
+<footer class="container-fluid text-center">
+  <ul class="pager">
+    <li class="previous"><a href="#">Previous</a></li>
+    <li class="next"><a href="#">Next</a></li>
+  </ul>
+</footer>
+</body>
+</html>
